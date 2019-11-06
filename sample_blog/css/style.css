@@ -1,0 +1,150 @@
+body {
+  background-color: #FFFFFF;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 30px;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto 40px auto;
+}
+
+.header-title-area {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 32px;
+  text-align: center;
+}
+
+.header-navigation {
+  width: 100%;
+  background-color: #333333;
+  padding: 20px 0;
+}
+
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.left-contents {
+  width: 600px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right-contents {
+  width: 300px;
+  float: left;
+}
+
+.blog-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  border: 5px solid #CCCCCC;
+}
+
+.blog-date {
+  color: #808080;
+}
+
+.blog-title {
+  color: #3399FF;
+  font-size: 22px;
+}
+
+.blog-summary {
+  color: #C0C0C0;
+  font-size: 12px;
+}
+
+.blog-contents {
+  margin-bottom: 30px;
+}
+
+.new-content {
+  font-size: 22px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #BBBBBB;
+}
+
+.new-image {
+  /*margin-bottom: 10px;*/
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  border: 3px solid #CCCCCC;
+}
+
+.new-image {
+ clear: both;
+ display: block;
+ content: " ";
+}
+
+.new-header {
+  height: 43px;
+}
+
+.new-date {
+  color: #808080;
+  font-size: 10px;
+}
+
+.new-title {
+  color: #3399FF;
+  font-size: 12px;
+}
+
+.new-contents {
+  margin-bottom: 10px
+}
+
+.main {
+  /*margin-bottom: 20px;*/
+  padding-bottom: 40px;
+  border-bottom: solid 1px #BBBBBB;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
